@@ -1,30 +1,3 @@
 import Hero from "@/components/Hero";
 import Projects from "@/components/Projects";
-
-export default function Home() {
-  return (
-    <div className="flex flex-col gap-20">
-      <Hero />
-      <Projects />
-
-      {/* Contact Section placeholder */}
-      <section id="contact" className="py-24 relative z-10 text-center">
-        <div className="container mx-auto px-6 max-w-2xl">
-          <h2 className="text-3xl font-bold text-white mb-6">
-            Let&apos;s Connect
-          </h2>
-          <p className="text-slate-400 mb-8">
-            Interested in collaborating or discussing the intersection of tech
-            and education? I&apos;m currently open for new opportunities.
-          </p>
-          <a
-            href="mailto:sllsll27@gmail.com"
-            className="inline-flex items-center justify-center px-8 py-4 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-semibold transition-colors border border-slate-700"
-          >
-            Say Hello
-          </a>
-        </div>
-      </section>
-    </div>
-  );
-}
+export default function Home(){return <><Hero/><Projects/><section id="experience" className="section experience"><div className="shell"><div className="section-label"><span>03 / EXPERIENCE</span><span>2021 → NOW</span></div><h2>From interface implementation<br/>to end-to-end product thinking.</h2><div className="timeline"><article><span>2022 — 2023</span><h3>The Techno Creatives</h3><b>Frontend Developer · Gothenburg</b><p>Built production interfaces for IoT and mobility products with React, TypeScript and GraphQL, working across design, backend and product.</p><small>ROAM / CLEAN MOTION / GOBOAT / RENTR</small></article><article><span>2025 — PRESENT</span><h3>University of Gothenburg</h3><b>MSc · Information Technology & Learning</b><p>Exploring how technology, cognition and interaction design shape learning — while building independent products that move beyond the frontend boundary.</p><small>POLYREADER / INNERVIEW</small></article></div><div className="about-copy"><p>I started in frontend. I became more interested in the system around the interface.</p><p>Working in production taught me how software gets shipped. Building my own products pushed me further — into backend systems, AI behaviour, product decisions, and the question of how technology changes the way people learn and understand themselves.</p><p><strong>Today, I&apos;m most interested in roles where engineering is close to the product problem.</strong></p></div></div></section><section id="contact" className="section contact"><div className="shell"><div className="section-label"><span>04 / CONTACT</span><span>OPEN TO OPPORTUNITIES</span></div><h2>Let&apos;s build something<br/><em>worth understanding.</em></h2><p>I&apos;m currently exploring software and product engineering opportunities, particularly around AI-powered products and learning technology.</p><p className="role-interests">PRODUCT ENGINEERING · SOFTWARE ENGINEERING · APPLIED AI · LEARNING TECHNOLOGY</p><div className="contact-links"><a href="mailto:lulin.innerview@gmail.com">Email ↗</a><a href="https://www.linkedin.com/in/lulin-shen" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://github.com/Lulin-S" target="_blank" rel="noreferrer">GitHub ↗</a><a href="/Lulin_Shen_2026_CV.pdf" target="_blank">Résumé ↗</a></div></div></section></>}
